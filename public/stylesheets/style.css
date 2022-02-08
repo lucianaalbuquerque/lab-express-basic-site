@@ -1,0 +1,67 @@
+body {
+    margin: 0px 5%;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 25px;
+    column-gap: 20px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    margin: 30px;
+    width: 20vw;
+}
+
+img {
+    width: 60vw;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin: 0 auto;
+    bottom:-20px;
+    right: 10vw;
+    font-size: 12px;
+}
